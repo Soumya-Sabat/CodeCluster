@@ -413,29 +413,6 @@ docs/
 
 ---
 
-# ⚙ Environment Variables
-
-```env
-POSTGRES_URL=
-MONGODB_URL=
-REDIS_URL=
-
-JWT_SECRET=
-JWT_EXPIRY=30m
-
-OTP_EXPIRY=5m
-OTP_LENGTH=6
-
-ENCRYPTION_KEY=
-
-SENDGRID_API_KEY=
-
-TWILIO_ACCOUNT_SID=
-TWILIO_AUTH_TOKEN=
-```
-
----
-
 # 🚀 Getting Started
 
 ## Install Dependencies
