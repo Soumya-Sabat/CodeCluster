@@ -1,6 +1,8 @@
 import React from 'react';
 // Only importing standard structural icons to guarantee zero build failures
 import { Layers, X } from 'lucide-react';
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -9,10 +11,19 @@ export default function Footer() {
         {/* Brand info */}
         <div className="md:col-span-4 space-y-4">
           <div className="flex items-center gap-2">
-            <div className="bg-indigo-600 p-1.5 rounded-lg text-white">
-              <Layers className="h-4 w-4" />
-            </div>
-            <span className="text-white font-bold text-base tracking-tight">CodeCluster</span>
+            <Link
+                href="/"
+                className="flex items-center transition-transform active:scale-95"
+              >
+                  <Image
+                    src="/images/logo.png"
+                    alt="CodeCluster Logo"
+                    height={70}
+                    width={150}
+                    className="object-contain"
+                    priority
+                  />
+               </Link>
           </div>
           <p className="text-slate-400 text-xs sm:text-sm max-w-xs leading-relaxed">
             Collaborative coding communities for developers who believe learning is better together.
@@ -37,16 +48,6 @@ export default function Footer() {
                 <circle cx="4" cy="4" r="2" />
               </svg>
             </a>
-
-            {/* Direct Inline SVG for Slack */}
-            {/* <a href="https://slack.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
-              <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <rect width="3" height="8" x="13" y="2" rx="1.5" fill="currentColor" />
-                <rect width="3" height="8" x="8" y="14" rx="1.5" fill="currentColor" />
-                <rect width="8" height="3" x="2" y="13" rx="1.5" fill="currentColor" />
-                <rect width="8" height="3" x="14" y="8" rx="1.5" fill="currentColor" />
-              </svg>
-            </a> */}
           </div>
         </div>
 
@@ -90,7 +91,7 @@ export default function Footer() {
       {/* Bottom Legal Attribution */}
       <div className="max-w-7xl mx-auto px-6 pt-8 border-t border-slate-900/60 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 font-medium">
         <p>© 2026 CodeCluster. All rights reserved.</p>
-        <p>Made with for developers everywhere</p>
+        <p>Made by 0xSoumya</p>
       </div>
     </footer>
   );

@@ -8,7 +8,7 @@ import Features from '@/components/landing/Features';
 import Testimonials from '@/components/landing/Testimonials';
 import Categories from '@/components/landing/Categories';
 import Contact from '@/components/landing/Contact';
-import PreFooterCTA from '@/components/landing/Cta';
+import Cta from '@/components/landing/Cta';
 import Footer from '@/components/landing/Footer';
 
 export default function CodeClusterLanding() {
@@ -29,7 +29,7 @@ export default function CodeClusterLanding() {
         <Testimonials />
         <Categories />
         <Contact />
-        <PreFooterCTA />
+        <Cta />
       </main>
 
       {/* Global Application Footer Component */}

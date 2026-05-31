@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-export default function PreFooterCTA() {
+export default function Cta() {
   return (
     <section className="py-20 max-w-7xl mx-auto px-6 text-center relative overflow-hidden">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-indigo-600/5 rounded-full blur-[100px] pointer-events-none" />
