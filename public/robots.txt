@@ -1,0 +1,31 @@
+# CodeCluster - Collaborative DSA Practice Platform
+# https://codecluster.com/robots.txt
+
+# Global rules for all crawlers
+User-agent: *
+
+# Allow indexing of public pages
+Allow: /
+Allow: /cluster
+Allow: /problem
+Allow: /about
+Allow: /features
+
+# Block indexing of private/sensitive pages
+Disallow: /auth/
+Disallow: /profile/
+Disallow: /notifications
+Disallow: /api/
+Disallow: /socket/
+Disallow: /admin
+
+# Block indexing of development/testing environments
+Disallow: /dev
+Disallow: /test
+Disallow: /staging
+
+# Sitemap location
+Sitemap: https://codecluster.com/sitemap.xml
+
+# Crawl delay (optional: reduce server load)
+Crawl-delay: 2
