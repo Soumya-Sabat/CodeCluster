@@ -22,7 +22,7 @@ export default function WhoItsFor() {
   return (
     <section className="py-20 max-w-7xl mx-auto px-6 border-t border-slate-900/60">
       <div className="text-center max-w-2xl mx-auto mb-16">
-        <span className="text-xs font-bold uppercase tracking-widest text-indigo-400 mb-3 block">Who It's For</span>
+        <span className="text-xs font-bold uppercase tracking-widest text-indigo-400 mb-3 block">Who It&apos;s For</span>
         <h2 className="text-3xl font-bold text-white mb-4">Built for every kind of coder</h2>
       </div>
 

@@ -30,7 +30,7 @@ export default function WhyClusters() {
       <div className="text-center max-w-2xl mx-auto mb-16">
         <span className="text-xs font-bold uppercase tracking-widest text-indigo-400 mb-3 block">Why Clusters?</span>
         <h2 className="text-3xl font-bold text-white mb-4">Peer learning that actually works</h2>
-        <p className="text-slate-400 text-sm sm:text-base">Studies show collaborative learning accelerates comprehension by 50%. Here's why clusters outperform solo grinding.</p>
+        <p className="text-slate-400 text-sm sm:text-base">Studies show collaborative learning accelerates comprehension by 50%. Here&apos;s why clusters outperform solo grinding.</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

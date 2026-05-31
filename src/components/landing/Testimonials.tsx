@@ -34,7 +34,7 @@ export default function Testimonials() {
               <div className="flex items-center gap-1 mb-4 text-amber-500">
                 {[...Array(5)].map((_, i) => <Star key={i} className="h-4 w-4 fill-current" />)}
               </div>
-              <p className="text-slate-300 text-sm italic leading-relaxed mb-6">"{rev.quote}"</p>
+              <p className="text-slate-300 text-sm italic leading-relaxed mb-6">&quot;{rev.quote}&quot;</p>
             </div>
             <div className="border-t border-slate-800/60 pt-4">
               <h4 className="text-white font-bold text-sm">{rev.name}</h4>
