@@ -13,7 +13,7 @@ export default function Hero() {
       
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         {/* Left Content */}
-        <div className="lg:col-span-7 flex flex-col justify-center text-center lg:text-left">
+        <div className="lg:col-span-7 flex flex-col justify-center text-center lg:text-left sm: pt-20 ">
           <span className="text-xs font-bold uppercase tracking-widest text-indigo-400 mb-4 block">
             Collaborative Coding Communities
           </span>
